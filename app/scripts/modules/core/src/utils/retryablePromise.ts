@@ -10,7 +10,7 @@ export const retryablePromise: <T>(
   closure: () => IPromise<T>,
   interval?: number,
   maxTries?: number,
-) => IRetryablePromise<T> = <T>(closure: () => IPromise<T>, interval = 1000, maxTries = 0) => {
+) => IRetryablePromise<T> = <T>(closure: () => IPromise<T>, interval: number = 1000, maxTries: number = 0) => {
   let currentTimeout: IPromise<T>;
   let currentTries = 0;
   const retryPromise: () => IPromise<T> = () => {

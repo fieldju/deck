@@ -43,3 +43,5 @@ mb.pid
 mb*.log
 selenium-logs
 *.browser.log
+
+.rpt2_cache

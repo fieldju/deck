@@ -3,8 +3,8 @@ import * as React from 'react';
 import 'jquery-textcomplete';
 import './spel.less';
 
-import * as classNames from 'classnames';
-import * as $ from 'jquery';
+import classNames from 'classnames';
+import $ from 'jquery';
 import { $q, $http, $timeout } from 'ngimport';
 import { SpelAutocompleteService } from './SpelAutocompleteService';
 import { ExecutionService } from '../../pipeline/service/execution.service';

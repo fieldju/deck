@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as $ from 'jquery';
+import $ from 'jquery';
 
 import { IInstance } from 'core/domain';
 

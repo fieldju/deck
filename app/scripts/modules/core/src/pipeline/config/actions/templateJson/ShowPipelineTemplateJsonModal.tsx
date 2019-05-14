@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { IPromise } from 'angular';
-import * as classnames from 'classnames';
+import classnames from 'classnames';
 
 import { Spinner } from 'core/widgets/spinners/Spinner';
 import { IModalComponentProps, JsonEditor } from 'core/presentation';

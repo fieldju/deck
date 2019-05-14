@@ -3,7 +3,7 @@ import * as ReactGA from 'react-ga';
 import { clone, isEqual } from 'lodash';
 import { $location } from 'ngimport';
 import { Subscription } from 'rxjs';
-import * as classNames from 'classnames';
+import classNames from 'classnames';
 
 import { Application } from 'core/application/application.model';
 import { CopyToClipboard } from 'core/utils';

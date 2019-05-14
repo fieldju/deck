@@ -3,6 +3,7 @@
   "compileOnSave": true,
   "compilerOptions": {
     "allowJs": false,
+    "allowSyntheticDefaultImports": true, // https://github.com/rollup/rollup-plugin-typescript/issues/68
     "baseUrl": "./src",
     "declaration": true,
     "declarationDir": "lib",
