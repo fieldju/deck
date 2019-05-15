@@ -24,7 +24,7 @@ require('Select2/select2.css');
 require('select2-bootstrap-css/select2-bootstrap.css');
 import 'source-sans-pro/source-sans-pro.css';
 import { RECENT_HISTORY_SERVICE } from 'core/history';
-require('root/app/fonts/spinnaker/icons.css');
+// require('root/app/fonts/spinnaker/icons.css'); todo would need another replace inline require statement
 
 import './analytics/GoogleAnalyticsInitializer';
 import { ANALYTICS_MODULE } from './analytics/angulartics.module';
